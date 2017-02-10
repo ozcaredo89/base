@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-mar-2016, 13:02:42
+    Author     : Jorge Alexis Aguilar Ocampo
+*/
+
+.marco {
+    margin: 3%;
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+
+.fondo {
+    border: 1px solid gray;
+}
+
+/* Este estilo se utiliza para que los resultados del autocomplete se muestren delante de la modal y no detrás */
+.ui-autocomplete {
+    z-index: 1100;
+	
+	/* Hacer que la lista del autocomplete sea scrollable */
+	max-height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.fila-base{
+	display: none;
+}
+
+.modal-fondo
+{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fondo-blanco
+{
+	background-color: white;
+}
+
+.margen-superior{
+	margin-top: 2%;
+}
